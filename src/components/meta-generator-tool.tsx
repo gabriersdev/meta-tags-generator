@@ -50,7 +50,7 @@ const MetaGeneratorTool: React.FC = () => {
     <Container fluid className="">
       <Row>
         <Col md={12} className="bg-primary-subtle mb-5 px-4 py-3 rounded-md text-center border border-primary-subtle">
-          <h1 className="fs-3 text-primary-emphasis">Meta Tags</h1>
+          <h1 className="fs-3 text-primary-emphasis">Meta Tags Generator</h1>
           <p className="text-mutedm m-0 p-0">Preview, Edit, and Generate!</p>
         </Col>
       </Row>
