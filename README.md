@@ -1,36 +1,82 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Gerador de Meta Tags
 
-## Getting Started
+Uma ferramenta web moderna e intuitiva, construída com Next.js, para gerar facilmente meta tags HTML essenciais para SEO e pré-visualização em redes sociais (Open Graph para Facebook/LinkedIn e Twitter Cards).
 
-First, run the development server:
+## ✨ Funcionalidades
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+* **Formulário Abrangente**: Preencha campos como título, descrição, palavras-chave e imagem.
+* **Pré-visualização em Tempo Real**: Veja instantaneamente como seu link aparecerá em redes sociais.
+* **Geração de Código**: Obtenha o código HTML completo, incluindo tags primárias, Open Graph e Twitter, pronto para ser copiado.
+* **Syntax Highlighting**: O código gerado é exibido com destaque de sintaxe para facilitar a leitura.
+* **Botão "Copiar"**: copie todo o código para a área de transferência com um único clique.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+-----
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ Tecnologias Utilizadas
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Este projeto foi construído utilizando um conjunto de tecnologias modernas para garantir uma experiência de desenvolvimento e de usuário de alta qualidade:
 
-## Learn More
+* **Framework**: **Next.js 15**
+* **Linguagem**: **TypeScript**
+* **Biblioteca UI**: **React 19**
+* **Componentes**: **React-Bootstrap**
+* **Estilização**: **Tailwind CSS 4** e **Bootstrap 5**
+* **Syntax Highlighting**: **React Syntax Highlighter**
+* **Linting**: **ESLint**
 
-To learn more about Next.js, take a look at the following resources:
+-----
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🏁 Começando
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Siga as instruções abaixo para configurar e executar o projeto em seu ambiente local.
 
-## Deploy on Vercel
+### Pré-requisitos
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Certifique-se de ter o **Node.js** (versão 20.x ou superior) instalado em sua máquina.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Instalação
+
+1.  **Clone o repositório:**
+
+    ```sh
+    git clone https://github.com/gabriersdev/meta-tags-generator.git
+    ```
+
+2.  **Navegue até o diretório do projeto:**
+
+    ```sh
+    cd meta-tags-generator
+    ```
+
+3.  **Instale as dependências:**
+
+    ```sh
+    npm install
+    # ou
+    yarn install
+    # ou
+    pnpm install
+    ```
+
+4.  **Inicie o servidor de desenvolvimento:**
+
+    ```sh
+    npm run dev
+    ```
+
+5.  Abra seu navegador e acesse [`http://localhost:3000`](http://localhost:3000) para ver a aplicação em funcionamento.
+
+-----
+
+## 👨‍💻 Como Usar
+
+1.  **Preencha os campos** do formulário no lado esquerdo com as informações do seu site (título, descrição, etc.).
+2.  **Observe a pré-visualização** do card social ser atualizada em tempo real no lado direito.
+3.  **Copie o código** HTML gerado na seção "Código Gerado" clicando no botão "Copiar Código".
+4.  **Cole o código** dentro da tag `<head>` do seu arquivo HTML.
+
+-----
+
+## 📄 Licença
+
+Este projeto é distribuído sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
