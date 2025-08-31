@@ -3,11 +3,8 @@
 import React, {useState} from 'react';
 import {Card, Button} from 'react-bootstrap';
 
-// 1. Importe o componente da nova biblioteca
 import {Prism as SyntaxHighlighter} from 'react-syntax-highlighter';
-
-// 2. Importe o tema que deseja usar (há dezenas disponíveis)
-import {vscDarkPlus} from 'react-syntax-highlighter/dist/esm/styles/prism';
+// import {vscDarkPlus} from 'react-syntax-highlighter/dist/esm/styles/prism';
 
 interface GeneratedCodeProps {
   code: string;

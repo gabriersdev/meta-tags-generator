@@ -2,17 +2,18 @@
   "name": "meta-tags-generator",
   "version": "0.1.0",
   "author": "Gabriel Ribeiro",
-  "homepage": "",
+  "homepage": "https://gabriersdev.github.io/meta-tags-generator",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "deploy": "next build && gh-pages -d out"
   },
   "dependencies": {
     "bootstrap": "^5.3.8",
-    "generate-readme": "^0.3.1",
+    "generate-readme": "^0.0.4",
     "next": "15.5.2",
     "react": "19.1.0",
     "react-bootstrap": "^2.10.10",
@@ -28,6 +29,7 @@
     "@types/react-syntax-highlighter": "^15.5.13",
     "eslint": "^9",
     "eslint-config-next": "15.5.2",
+    "gh-pages": "^6.3.0",
     "tailwindcss": "^4",
     "typescript": "^5"
   }

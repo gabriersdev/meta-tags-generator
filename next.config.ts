@@ -3,7 +3,7 @@ import type { NextConfig } from "next";
 const repoName = 'meta-tags-generator';
 
 const nextConfig: NextConfig = {
-  // Ativa a exportação estática
+  // // Ativa a exportação estática
   output: 'export',
   
   // Define o caminho base para o projeto no GitHub Pages
