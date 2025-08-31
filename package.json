@@ -2,6 +2,7 @@
   "name": "meta-tags-generator",
   "version": "0.1.0",
   "author": "Gabriel Ribeiro",
+  "homepage": "",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
