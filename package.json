@@ -15,7 +15,7 @@
   "dependencies": {
     "bootstrap": "^5.3.8",
     "generate-readme": "^0.0.4",
-    "next": "16.0.7",
+    "next": "16.1.5",
     "react": "19.1.0",
     "react-bootstrap": "^2.10.10",
     "react-dom": "19.1.0",
